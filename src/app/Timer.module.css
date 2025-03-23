@@ -1,0 +1,132 @@
+.timerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    border: 2px solid white;
+    background-color: #333; /* Dark background */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .currentTime {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .date {
+    font-size: 0.875rem;
+    color: white;
+    margin: 10px 0;
+  }
+  
+  .mode {
+    font-size: 1.25rem;
+    color: white;
+    margin: 10px 0;
+  }
+  
+  .countdown {
+    font-size: 3rem;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px 0;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #777;
+  }
+  
+  /* Overlay for background blur */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    backdrop-filter: blur(5px); /* Apply blur effect */
+  }
+  
+  /* Settings Popup */
+  .settingsPopup {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .popupContent {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .settingItem {
+    margin: 10px 0;
+  }
+  
+  .settingItem label {
+    font-size: 1rem;
+  }
+  
+  .settingItem input {
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 1rem;
+  }
+  
+  .popupButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .popupButtons button {
+    padding: 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .popupButtons button:hover {
+    background-color: #777;
+  }
+  .statsIcon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .statsIcon:hover {
+    transform: scale(1.2);
+  }

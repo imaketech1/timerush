@@ -1,2 +1,3 @@
-# timerush
-Coolest pomodoro timer ever
+# TIMERUSH
+## Coolest pomodoro timer ever
+
