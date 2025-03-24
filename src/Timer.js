@@ -152,7 +152,7 @@ const Timer = () => {
         <div className={styles.overlay}>
           <div className={styles.statsPopup}>
             <div className={styles.popupContent}>
-              <h2>Today's Stats</h2>
+              <h2>Stats</h2>
               <div className={styles.settingItem}>
                 <label>Total Focus Time:</label>
                 <p>{formatTime(totalFocusTime)}</p>
